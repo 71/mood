@@ -1,7 +1,7 @@
 # mood
 Windows app to change the pinned taskbar items instantly.
 
-<video src="vid.mp4" type="video/mp4" loop autoplay muted></video>
+![](vid.gif)
 
 ## Requirements
 - Windows (tested on W10, should work on Vista and later).  
