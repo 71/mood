@@ -43,8 +43,8 @@ namespace Mood
                 .Short('s');
 
             fprs.Define(x => x.Delete)
-                .Long("delete", "remove")
-                .Short('d', 'r');
+                .Long("delete")
+                .Short('d');
 
             fprs.Define(x => x.Verbose)
                 .Long("verbose")
