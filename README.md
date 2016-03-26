@@ -1,8 +1,9 @@
 # mood
 Windows app to change the pinned taskbar items instantly.
 
-## How does it work?
-It saves the shortcuts in **%AppData%\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar** and the Registry values in **HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband** into a binary file, and loads them back when needed.
+## Requirements
+- Windows (tested on W10, should work on Vista and later).  
+- .NET 3.5 and later.
 
 ## How do I use it?
 `mood [opts] file`
@@ -17,6 +18,8 @@ Path to a file. If the path is relative (ex: **develop**), the file will be load
 **-a** & **--list**: List all saves in **Documents\dashji\mood**.  
 **-v** & **--verbose**: Be verbose.
 
-##### With **-l** (*Both these arguments are false by default)
 **-r** & **--restart**: Restart explorer.exe once loading is done.  
-**-n** & **--no-kill**: No not kill explorer.exe when loading.  
+**-n** & **--no-kill**: No not kill explorer.exe when loading.
+
+## How does it work?
+It saves the shortcuts in **%AppData%\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar** and the Registry values in **HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband** into a binary file, and loads them back when needed.
