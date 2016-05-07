@@ -16,7 +16,7 @@ namespace Mood
 
         public static string PathToSaves = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-            @"dashji\mood");
+            @"ijee\mood");
 
         public TaskbarManager()
         {
